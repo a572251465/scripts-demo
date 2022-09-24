@@ -6,7 +6,8 @@
   "scripts": {
     "build": "node npm-hooks/build.js",
     "prebuild": "node npm-hooks/prebuild.js",
-    "postbuild": "node npm-hooks/postbuild.js"
+    "postbuild": "node npm-hooks/postbuild.js",
+    "print": "node params/run.js"
   },
   "keywords": [],
   "author": "",
