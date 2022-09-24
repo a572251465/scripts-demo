@@ -1,0 +1,17 @@
+{
+  "name": "scripts-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node npm-hooks/build.js",
+    "prebuild": "node npm-hooks/prebuild.js",
+    "postbuild": "node npm-hooks/postbuild.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.7.19"
+  }
+}
